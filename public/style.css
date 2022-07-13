@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:whitesmoke;
+    background-image:url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+.heading{
+    background-color: #f5ba13;
+    height:4rem;
+    position:relative;
+}
+.h-child{
+    color:white;
+    font-family: 'McLaren', cursive;
+    position:absolute;
+    top: 0.4rem;
+    left: 2rem;
+    font-weight: 200;
+}
+
+/* Header1 */
+.h-1{
+    text-align: center;
+    padding: 20px 0 27px 0;
+   
+}
+
+.i-1{
+    background-color: white;
+    margin:auto;
+    height: 63px;
+    width: 257px;
+    border-radius: 19px;
+    box-shadow: 0 0 10px 0 rgb(0,0,0,0.3);
+    position: relative;
+}
+
+
+
+input{
+    padding:0 0 7px 0;
+    display: block;
+    outline:none;
+    border:none;
+    font-family: 'McLaren', cursive;
+    position:relative;
+    top:7px;
+    left:7px;
+   
+}
+
+/* .input1{
+    position:absolute;
+    top: 9px;
+    left: 13px;
+}
+.input2{
+    position:absolute;
+    bottom: 9px;
+    left: 13px;
+} */
+
+button{
+    background-color: #f5ba13;;
+    color:white;
+    position:absolute;
+    height: 64%;
+    width: 17%;
+    border-radius: 50%;
+    top: -7px;
+    left: 112px;
+
+
+}
+
+
+
+/* note-component    */
+
+.note-container {
+  position:relative;
+}
+.container{
+     background-color:white;
+     margin-top:1rem;
+     height: auto;
+     width: 192px;
+     border-radius:10px;
+     box-shadow: 0 0 10px 0 rgb(0,0,0,0.3);
+     left: 2rem;
+    float: left;
+    margin: 16px
+}
+
+
+.container p{
+    font-size:15px;
+    font-family: 'Merriweather', serif;
+    padding-left: 10px;
+    font-weight:bold;
+}
+
+.note-title{
+    padding: 8px 0px 5px 0px;
+}
+
+.note-container button{
+    height: 20px;
+    width: 52px;
+    border:none;
+    color:rgb(225, 208, 22);
+    position:relative;
+    top: -8px;
+    left: 136px;
+    background-color:white;
+}
+
+
+
+/* footer */
+
+.bottom-container{
+position:absolute;
+bottom:3vh;
+right:50vw
+}
+
+.bottom-container p {
+    color:grey;
+}
